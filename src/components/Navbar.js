@@ -1,6 +1,8 @@
 // import { Menu } from 'antd';
 // import { MailOutlined } from '@ant-design/icons';
 import logoWeedStaion from '../assets/images/Weed_Station.jpg';
+import logoWeedStaion2 from '../assets/images/weedpp2.jpg';
+import { Image } from 'antd';
 // const { SubMenu } = Menu;
 
 const navbarStyle = {
@@ -13,14 +15,16 @@ const navbarStyle = {
 };
 
 const logoStyle = {
-    width: '50px',
-    // maxWidth: '100%',
-    maxWidth: '150px',
+    width: '150px',
+    maxWidth: '100%',
     height: "auto",
-    borderRadius: '50%',
-    marginRight: '30px',
-    fontSize: '24px',
-}
+
+    // maxWidth: '150px',
+    // borderRadius: '50%',
+    // marginRight: '30px',
+    // fontSize: '24px',
+};
+
 
 const frist_navStyle = {
     height: '55px',
@@ -33,7 +37,7 @@ const second_navStyle = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-around',
-    backgroundColor: 'white',
+    backgroundColor: '#e3fcdc',
     width: '100%',
     border: '1px solid #A8A9AE',
 };
@@ -50,41 +54,37 @@ function Navbar() {
     return (
         <nav style={navbarStyle}>
             <div className='frist-nav' style={frist_navStyle}>
-                <span style={{ fontSize: '22px', color: 'white' }}>Weed Station P&P Shop</span>
+                {/* <Image src={logoWeedStaion2} style={logoStyleImg} loading="" /> */}
+                <span style={{ fontSize: '22px', color: 'white',  }}>Weed Station P&P Shop 2</span>
                 {/* <span>Lang. TH</span> */}
             </div>
 
             <div style={second_navStyle}>
-                <img src={logoWeedStaion} alt="WeedStaionPP" style={logoStyle} />
+                <Image src={logoWeedStaion2} alt="WeedStaionPP2" style={logoStyle} />
 
                 <div className='clickContact'>
                     <span className='' style={{ ...contactIcon_style }}>
-                        <a href="tel:0909929671" style={{ color: 'white' }}>
-                        {/* 0968292587, 0909929671 */}
+                        <a href="tel:0968292587" style={{ color: 'white' }}>
+                            {/* 0968292587, 0909929671 */}
                             <i className="fas fa-phone" style={{ color: 'black' }}></i>
                         </a>
                     </span>
                     <span className='' style={{ ...contactIcon_style }}>
-                        <a href="https://line.me/ti/p/9P3vcSl0BF" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
+                        <a href="https://line.me/ti/p/" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
+                            {/* https://line.me/ti/p/9P3vcSl0BF */}
+                            {/* update line 2 */}
                             <i className="fa-brands fa-line" style={{ color: '#39CD00', backgroundColor: 'transparent', }}></i>
                         </a>
                     </span>
                     <span className='' style={{ ...contactIcon_style }}>
-                        <a href="https://maps.app.goo.gl/xKcYkKHsTTqLAiBj7" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
+                        <a href="https://maps.app.goo.gl/ThdR1xqzLDA5hjsj6" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
                             {/* <i className="fa-brands fa-google" style={{ color: '#FF5722', backgroundColor: 'transparent' }}></i> */}
-                            <i className="fas fa-map-marker-alt"  style={{color: 'blue',backgroundColor:'transparent'}} ></i>
+                            <i className="fas fa-map-marker-alt" style={{ color: 'blue', backgroundColor: 'transparent' }} ></i>
                         </a>
                     </span>
                 </div>
 
             </div>
-
-            {/* <Menu mode="horizontal" color='red'>
-                <SubMenu key="contact" icon={''} title="Contact" >
-                    <Menu.Item key="phone">Phone</Menu.Item>
-                    <Menu.Item key="Line">Line</Menu.Item>
-                </SubMenu>
-            </Menu> */}
         </nav>
     );
 }
