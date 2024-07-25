@@ -315,18 +315,18 @@ const products = [
         "flovors": "",
         "effect": ""
     },
-    {
-        "name": "Grinder",
-        "price": 250,
-        "img": "grinder2.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "Toppuff",
-        "price": 250,
-        "img": "top_puff2.jpg",
-        "cate": "item"
-    },
+    // {
+    //     "name": "Grinder",
+    //     "price": 250,
+    //     "img": "grinder2.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "Toppuff",
+    //     "price": 250,
+    //     "img": "top_puff2.jpg",
+    //     "cate": "item"
+    // },
     {
         "name": "Gorilla glue",
         "price": 250,
@@ -379,30 +379,30 @@ const products = [
         "flovors": "",
         "effect": ""
     },
-    {
-        "name": "Bamboo",
-        "price": 200,
-        "img": "Bamboo.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "paper",
-        "price": 120,
-        "img": "paper_roll.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "-",
-        "price": 100,
-        "img": "S__151994378_0.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "Pipe",
-        "price": 180,
-        "img": "Pipe.jpg",
-        "cate": "item"
-    },
+    // {
+    //     "name": "Bamboo",
+    //     "price": 200,
+    //     "img": "Bamboo.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "paper",
+    //     "price": 120,
+    //     "img": "paper_roll.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "-",
+    //     "price": 100,
+    //     "img": "S__151994378_0.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "Pipe",
+    //     "price": 180,
+    //     "img": "Pipe.jpg",
+    //     "cate": "item"
+    // },
     {
         "name": "Green Crack Pack",
         "price": 450,
@@ -440,60 +440,98 @@ const products = [
         "img": "roll1.jpg",
         "cate": "roll"
     },
+    // {
+    //     "name": "บ้องแก้ว",
+    //     "price": 600,
+    //     "img": "bong_3.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "บ้องแก้ว",
+    //     "price": 1000,
+    //     "img": "bong1000.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "บ้องแก้ว",
+    //     "price": 1200,
+    //     "img": "1714305877218.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "TOPPUFF",
+    //     "price": 160,
+    //     "img": "toppuff.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "Grinder",
+    //     "price": 350,
+    //     "img": "grinder.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "Paper",
+    //     "price": 120,
+    //     "img": "paper_roll.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "Paper",
+    //     "price": 60,
+    //     "img": "paper2.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "Paper",
+    //     "price": 60,
+    //     "img": "paper3.jpg",
+    //     "cate": "item"
+    // },
+    // {
+    //     "name": "Paper",
+    //     "price": 60,
+    //     "img": "paper4.jpg",
+    //     "cate": "item"
+    // }
     {
-        "name": "บ้องแก้ว",
-        "price": 600,
-        "img": "bong_3.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "บ้องแก้ว",
-        "price": 1000,
-        "img": "bong1000.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "บ้องแก้ว",
-        "price": 1200,
-        "img": "1714305877218.jpg",
+        "name": "TOPPUFF",
+        "price": 180,
+        "img": "S__9535535_0.jpg",
         "cate": "item"
     },
     {
         "name": "TOPPUFF",
-        "price": 160,
-        "img": "toppuff.jpg",
-        "cate": "item"
-    },
-    {
-        "name": "Grinder",
-        "price": 350,
-        "img": "grinder.jpg",
+        "price": 250,
+        "img": "S__9535537_0.jpg",
         "cate": "item"
     },
     {
         "name": "Paper",
-        "price": 120,
-        "img": "paper_roll.jpg",
+        "price": 150,
+        "img": "S__9535538_0.jpg",
         "cate": "item"
     },
     {
-        "name": "Paper",
-        "price": 60,
-        "img": "paper2.jpg",
+        "name": "Cone Funnel",
+        "price": 80,
+        "img": "S__9535541_0.jpg",
         "cate": "item"
     },
     {
-        "name": "Paper",
-        "price": 60,
-        "img": "paper3.jpg",
+        "name": "แกนใส่บ้องแก้ว",
+        "price": 140,
+        "img": "S__9543710.jpg",
         "cate": "item"
     },
     {
-        "name": "Paper",
-        "price": 60,
-        "img": "paper4.jpg",
+        "name": "แกนใส่บ้องแก้ว",
+        "price": null,
+        "img": "S__9543712.jpg",
         "cate": "item"
-    }
+    },
+
+    
 ];
 
 
