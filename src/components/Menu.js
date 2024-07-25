@@ -572,13 +572,12 @@ function Menu() {
         });
         // Sort flower , trim , roll , stick , items
 
-        const filteredItems = sortedItems.filter(item => {
-            // Add cut items is not images
-            return item.cate !== 'item';
-        });
+        // const filteredItems = sortedItems.filter(item => {
+        //     return item.cate !== 'item';
+        //     // Add cut items is not images
+        // });
 
-        setProductList(filteredItems);
-        // console.log(products)
+        setProductList(sortedItems);
 
     }, []);
 
