@@ -526,7 +526,7 @@ const products = [
     },
     {
         "name": "แกนใส่บ้องแก้ว",
-        "price": "???",
+        "price": "สอบถาม",
         "img": "S__9543712.jpg",
         "cate": "item"
     },
