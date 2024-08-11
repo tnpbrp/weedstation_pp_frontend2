@@ -70,7 +70,7 @@ function Navbar() {
                         </a>
                     </span>
                     <span className='' style={{ ...contactIcon_style }}>
-                        <a href="https://line.me/ti/p/" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
+                        <a href="https://line.me/ti/p/3_ErxvWHNN" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>
                             {/* https://line.me/ti/p/9P3vcSl0BF */}
                             {/* update line 2 */}
                             <i className="fa-brands fa-line" style={{ color: '#39CD00', backgroundColor: 'transparent', }}></i>
